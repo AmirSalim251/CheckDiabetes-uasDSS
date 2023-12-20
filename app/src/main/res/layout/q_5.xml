@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/back_button4"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginBottom="224dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="SEBELUMNYA"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/cont_button5"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginBottom="224dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="BERIKUTNYA"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:id="@+id/smoked_dropdown"
+        android:layout_width="342dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="306dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="230dp"
+        android:text="Apakah pasien memiliki histori merokok?"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+</RelativeLayout>

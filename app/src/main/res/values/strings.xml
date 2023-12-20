@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CheckDiabetes</string>
+    <string-array name="tf_array">
+        <item>Pernah</item>
+        <item>Tidak Pernah</item>
+    </string-array>
+
+    <string-array name="smoke_array">
+        <item>Masih perokok</item>
+        <item>Mantan perokok </item>
+        <item>Tidak pernah merokok </item>
+
+    </string-array>
+
+    <string-array name="jk_array">
+        <item>Laki-Laki</item>
+        <item>Perempuan </item>
+    </string-array>
+</resources>

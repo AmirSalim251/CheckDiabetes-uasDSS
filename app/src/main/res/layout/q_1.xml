@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cont1_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="283dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="227dp"
+        android:text="Isi Nama pasien...."
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/nama_tfield"
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="321dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="nama.." />
+
+    <Button
+        android:id="@+id/cont_button"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginBottom="253dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="prosesCont1"
+        android:password="false"
+        android:text="BERIKUTNYA"
+        android:textColor="@color/white" />
+</RelativeLayout>

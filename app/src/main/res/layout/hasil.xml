@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/transk_button"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginBottom="286dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="LIHAT DETAIL CHECKUP"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/repeat_button"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginBottom="219dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="SURVEI ULANG"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="227dp"
+        android:text="Dengan menggunakan klasifikasi KNN, pasien..."
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/hasil_tview"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="306dp"
+        android:text="[]"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="34sp"
+        tools:text="[]" />
+</RelativeLayout>
